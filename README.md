@@ -12,9 +12,9 @@ The contact form submits to the same-origin server endpoint. The recipient is re
 
 Configure runtime secrets through Sites. Keep credentials and recipient values out of source, client bundles, and the hosting manifest.
 
-The résumé section reserves a space for Kaide’s PDF and currently opens the contact form with a résumé request. To add the file, place a PDF in `site/assets/` and replace the placeholder with a download link to it, then build and publish.
+The resume section reserves a space for my resume PDF and currently opens the contact form with a resume request. To add the file, place a PDF in `site/assets/` and replace the placeholder with a download link to it, then build and publish.
 
-Project examples and technology directions are illustrative. Replace these with Kaide’s verified work before presenting them as real projects.
+Project examples and technology directions are illustrative. These examples will be replaced with my current projects shortly.
 
 ## Build
 
@@ -28,10 +28,4 @@ The build validates the Worker and writes generated output to `dist/`, which is 
 
 ## Hosting
 
-Live portfolio: https://kaide-salo-portfolio.icymochi1.chatgpt.site
-
-The site runs on Sites with a Cloudflare Worker backend. The tracked `.openai/hosting.json` preserves its Site identity and contains no credentials. Keep `CONTACT_RECIPIENT` in the hosting provider’s secret environment settings.
-
-GitHub Pages alone cannot run the contact endpoint. This repository stores the source; pushing changes here does not automatically update the live Sites publication.
-
-This repository starts with a fresh snapshot of the current site. Earlier editing history and runtime secrets are excluded.
+Once fully hosted the product will be available for viewing on `www.vulpibyte.dev`
